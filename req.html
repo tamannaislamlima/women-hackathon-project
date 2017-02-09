@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Business & Commerce</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+</head>
+<body>
+	<!--header-->
+	<div class="header">
+		<div class="inner-body">
+			<div class="col-sm-12">
+				<div class="col-sm-3">
+					<h1><b>Tradeshi</b></h1>
+				</div>
+				<div class="col-sm-9">
+					<nav>
+						<ul>
+							<a href="#"><i class="fa fa-user fa-lg" aria-hidden="true"></i></a>
+							<a href="cnf.html"><li class="test-class" id="cnf"><b>cnf agents</b></li></a>
+							<a href="req.html"><li class="test-class" id="req"><b>requirements</b></li></a>
+							<a href="index.html"><li class="test-class" id="home active"><b>home</b></li></a>
+							<div class="extra"></div>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!---header finish -->
+
+	<!--backgroud-->
+	<div class="background">
+		<div class="slide">
+			<img class="img-responsive" src="images/bg.jpg">
+			<!-- <div class="text">
+				<h2>Import Export Business</h2>
+			</div> -->
+		</div>
+	</div>
+	<div class="clearfix"></div>
+	<!--backgroud finish-->
+
+	<div class="form">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12">
+					<h3><b>Required information</b></h3>
+					<div class="title-border"></div>
+					<form>
+						<div class="form-group">
+							<label for="Email">Name:</label>
+							<input type="text" name="name" class="form-control" id="name" placeholder="Enter full name">
+						</div>
+						<div class="form-group">
+							<label for="Email">Email:</label>
+							<input type="email" name="email" class="form-control" id="email" placeholder="Enter email">
+						</div>
+
+						<br><label>What you want to do?</label>
+						<br><input type="radio" name="aim" value="export"> Export<br>
+ 						<input type="radio" name="aim" value="import"> Import<br>
+ 						<input type="radio" name="aim" value="both"> Both<br>
+						
+						<br><div class="form-group">
+							<label>Are you :</label>
+							<select class="form-control" id="member">
+								<option>---</option>
+								<option>Proprietor</option>
+								<option>Partner</option>
+								<option>Limited Company</option>
+								<option>Others</option>
+							</select>
+						</div>
+						<div id="trade">
+						<br><label>If you are Proprietor, do you have Trade License?</label>
+						<br><input type="radio" name="trade_license" value="yes"> Yes<br>
+ 						<input type="radio" name="trade_license" value="no"> No<br>
+ 						</div>
+
+ 						<br><label>If you are Partner, do you have any Registered copy of Agreement?</label>
+						<br><input type="radio" name="register_copy" value="yes"> Yes<br>
+ 						<input type="radio" name="register_copy" value="no"> No<br>
+
+ 						<br><label>If you are from a Limited Company, do you have the Memorandum & Articles Association?</label>
+						<br><input type="radio" name="memorandum_articles_association" value="yes"> Yes<br>
+ 						<input type="radio" name="memorandum_articles_association" value="no"> No<br>
+
+ 						<br><label>If you are from a Limited Company, do you have the Certification of Incorporation?</label>
+						<br><input type="radio" name="certification_of_incorporation" value="yes"> Yes<br>
+ 						<input type="radio" name="certification_of_incorporation" value="no"> No<br>
+
+ 						<br><p><b>**If you are not a Proprietor or a Partner or not from any Limited Company then contact with us. Call us 00000000000.</b></p>
+
+						<br><label>Do you have required documents for export/import:</label><br>
+						<input type="checkbox" name="ex_im" value="mcc"> Membership Certificate from recognized Chamber/Trade Association<br>
+						<input type="checkbox" name="ex_im" value="vat"> VAT Registration<br> 
+						<input type="checkbox" name="ex_im" value="tin"> TIN Registration<br> 
+						<input type="checkbox" name="ex_im" value="ei_license"> Export or Import License<br> 
+						<input type="checkbox" name="ex_im" value="bcca"> Bank Account in the name of the company and Bank certificate confirming account with bank<br> 
+						<input type="checkbox" name="ex_im" value="permits"> Any other licenses or permits depending on type of business<br> 
+
+
+						<br><label>Required Documents for Shipment: </label><br>
+						<input type="checkbox" name="shipping" value="invoice"> Commercial Invoice (original)<br> 
+						<input type="checkbox" name="shipping" value="packing"> Packing List (original)<br> 
+						<input type="checkbox" name="shipping" value="forma_invoice"> Pro-forma Invoice (original)<br> 
+						<input type="checkbox" name="shipping" value="shipping_documents"> Shipping Documents (BL/AWB/LR)<br> 
+						<input type="checkbox" name="shipping" value="payment"> Proof of Payment (TT/LC/Contract/PO against which EXP issued by
+						CCI&E)<br> 
+						<input type="checkbox" name="shipping" value="certificate"> Certificate of Origin (if required by buyer, will be mentioned in LC)<br> 
+						<input type="checkbox" name="shipping" value="exporter"> Exporters ERC No./copy<br> 
+						<input type="checkbox" name="shipping" value="vat_reg"> VAT registration copy<br> 
+						<input type="checkbox" name="shipping" value="tin_num"> TIN Number<br> 
+						<input type="checkbox" name="shipping" value="insurance"> Insurance (if required)<br> 
+						<input type="checkbox" name="shipping" value="bond_license"> Bond License (if bonded) copy<br> 
+						<input type="checkbox" name="shipping" value="special"> In case of special or restricted goods, necessary clearance papers
+						from relevant authority<br> 
+
+
+						<br><label>Required Documents for Importing into Bangladesh: </label><br>
+						<input type="checkbox" name="importing" value="indent"> Pro-forma Invoice or Indent copy<br> 
+						<input type="checkbox" name="importing" value="commercial"> Commercial Invoice<br> 
+						<input type="checkbox" name="importing" value="packing_list"> Packing List<br> 
+						<input type="checkbox" name="importing" value="shipping_doc"> Shipping Documents<br> 
+						<input type="checkbox" name="importing" value="certificate_of_origin"> Certificate of Origin<br> 
+						<input type="checkbox" name="irc_num" value="certificate"> Importers IRC No./copy<br> 
+						<input type="checkbox" name="importing" value="tin_num"> Importers TIN Certificate/No.<br> 
+						<input type="checkbox" name="importing" value="vat_num"> Importers VAT registration no./copy<br> 
+						<input type="checkbox" name="importing" value="tin_num"> TIN Number<br> 
+						<input type="checkbox" name="importing" value="lc_doc"> LC documents<br> 
+						<input type="checkbox" name="importing" value="lca"> LCA from BB<br> 
+						<input type="checkbox" name="importing" value="insurance"> Insurance against shipment<br> 
+
+						
+						<br><label>Do you have Import Registration Certificate (IRC)</label>
+						<br><input type="radio" name="irc" value="yes"> Yes<br>
+ 						<input type="radio" name="irc" value="no"> No<br>
+						
+						<br><label>Do you have Export Registration Certificate (ERC)</label>
+						<br><input type="radio" name="erc" value="yes"> Yes<br>
+ 						<input type="radio" name="erc" value="no"> No<br>
+						<br><button type="submit" class="btn btn-primary">Submit</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+	<!--footer-->
+	<div id="footer">
+		<h5><b>Powered by Tradeshi Team @ 2017</b></h5>
+	</div>
+
+
+</body>
+</html>

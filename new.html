@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script>
+	$(document).ready(function(){
+	    $("#profile-hide").click(function(){
+	        $(".popup").hide("slow");
+	    });
+	    $("#profile-show").click(function(){
+	        $(".popup").show("slow");
+	    });
+	    
+	});
+	</script>
+	<style type="text/css">
+		.popup {
+			
+			position: absolute;
+			display: none;
+			top: 0;
+			
+		}
+	</style>
+</head>
+<body>
+
+
+<a  href="#" id="profile-show"><div class="menu-box"><i class="fa fa-user fa-3x header_icon"></i></div>
+<h2><b>profile</b></h2></a>
+
+<div class="popup"> 
+<a href="#" id="profile-hide">hide</a>
+</div>
+
+</body>
+</html>
